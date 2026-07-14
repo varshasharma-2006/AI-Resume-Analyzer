@@ -44,6 +44,7 @@ client = Groq(api_key=api_key)
 def analyze_resume(resume_text):
     response = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
+        temperature=0,
         messages=[
             {
                  "role": "user",
