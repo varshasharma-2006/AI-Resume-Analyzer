@@ -9,7 +9,7 @@ Strengths and weaknesses identification
 Skill improvement suggestions 
 Suitable job role recommendations 
 
-#Technologies Used 
+# Technologies Used 
 Python 
 Streamlit
 Groq LLM
